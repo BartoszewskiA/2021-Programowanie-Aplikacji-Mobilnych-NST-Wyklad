@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dodawaczek</string>
+    <string name="opis_y">Wartość Y:</string>
+    <string name="Opis_button">Oblicz</string>
+    <string name="opis_x">Wartość X:</string>
+</resources>
