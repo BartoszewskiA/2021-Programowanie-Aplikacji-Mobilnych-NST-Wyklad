@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">w04p01</string>
+    <string-array name="zawartscSpinera">
+        <item>Pozycja 01</item>
+        <item>Pozycja 02</item>
+        <item>Pozycja 03</item>
+        <item>Pozycja 04</item>
+        <item>Pozycja 05</item>
+    </string-array>
+</resources>
