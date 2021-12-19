@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.w06p01_aktywnosci">
+    package="com.example.w07p02">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.W06p01aktywnosci">
-        <activity
-            android:name=".MainActivity4"
-            android:exported="true" />
-        <activity
-            android:name=".MainActivity3"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity2"
-            android:exported="false" />
+        android:theme="@style/Theme.W07p02">
         <activity
             android:name=".MainActivity"
             android:exported="true">
