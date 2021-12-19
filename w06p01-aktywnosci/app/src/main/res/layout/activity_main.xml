@@ -33,6 +33,45 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/editText01"
         />
+    <EditText
+        android:id="@+id/editText02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button02"
+        android:layout_marginTop="20dp"
+        android:enabled="false"
+        android:ems="10"/>
+    <Button
+        android:id="@+id/button03"
+        android:text="Odbieranie danych od aktywności"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editText02"
+        />
+
+    <Button
+        android:id="@+id/button04"
+        android:text="Szukaj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button03"
+        />
+    <Button
+        android:id="@+id/button05"
+        android:text="Szukaj na mapie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button04"
+        />
+
 
 
 
